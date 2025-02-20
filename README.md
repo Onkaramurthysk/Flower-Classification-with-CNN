@@ -19,14 +19,18 @@ This project uses a **Convolutional Neural Network (CNN)** based on **ResNet-18*
 
 ## 📥 Installation
 ### 🔹 1. Clone the Repository  
-```bash
 git clone https://github.com/your-repo/flower-classification-cnn.git
 cd flower-classification-cnn
 
 ### 🔹 2. Install Dependencies
 pip install -r requirements.txt
 
-###  🔹 3. Run the Streamlit App
+### 🔹 3. Train the Model
+Before running the web app, train the model by executing the following command:
+python train_model.py
+
+
+###  🔹 4. Run the Streamlit App
 streamlit run app.py
 
 ## 📊 Model Training
